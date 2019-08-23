@@ -1,6 +1,7 @@
 package it.max.liste;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import it.max.oop.Smartphone;
 
@@ -10,6 +11,7 @@ public class CreaArrayMain {
 		// TODO Auto-generated method stub
 			CreaArrayMain am=new CreaArrayMain();
 			am.creaArray();
+			//esempioArrayList
 	}
   private void creaArray() {
 	  int[] array=new int[6];
@@ -42,5 +44,10 @@ public class CreaArrayMain {
 	  for(Smartphone s:smartphoneList) {
 		  System.out.println(s.getNome());
 	  }
+	  
+	  
+	  
   }
+  
+
 }
