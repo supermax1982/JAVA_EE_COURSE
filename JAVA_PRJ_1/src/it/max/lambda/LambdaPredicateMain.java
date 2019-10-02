@@ -83,10 +83,10 @@ public class LambdaPredicateMain {
 		
 		//espressione lambda BinatyOperator estende function
 		//prende in ingresso due operandandi e produce in uscita un risultato dello stesso tipo dell'operando
-		double a=10;
+		double pippo=10;
 		double b=4;
 		BinaryOperator<Double> bo=(a1,a2)->a1*a2;
-		System.out.println(bo.apply(a, b));
+		System.out.println(bo.apply(pippo, b));
 	}
 	
 	
